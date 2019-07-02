@@ -13,7 +13,7 @@ import cucumber.api.java.en.Then;
 
 public class Sugar_SaveStep extends CommonLibrary {	
 	
-		@Then("^User login with user credintials$")
+		@Then("^Customer login with user credintials$")
 		
 		public void login (DataTable arg2) throws Exception{
 		Map<String, List<String>> dataMap = null;
